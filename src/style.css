@@ -3,15 +3,29 @@
     flex-direction: column;
     justify-content: start;
     height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
 .header {
-    width: 100vw;
-    font-size: 36px;
-    text-align: center;
+    width: 100%;
+    font-size: 24px;
     background-color: #cbadcb;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.header p {
+    width: 100px;
+    background-color: #c5c1c5;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header p:hover {
+    background-color: #ffffff;
 }
 
 .bgimage {

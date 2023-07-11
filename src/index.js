@@ -1,1 +1,3 @@
-console.log("Hi, this is index.js")
+import { initHtml } from './init-html';
+
+initHtml();
