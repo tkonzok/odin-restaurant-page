@@ -17,14 +17,16 @@
     gap: 25px;
 }
 
-.header p {
+.header button {
     width: 100px;
     background-color: #c5c1c5;
     text-align: center;
     padding: 1rem;
+    border: 0;
+    margin: 1rem 0;
 }
 
-.header p:hover {
+.header button:hover {
     background-color: #ffffff;
 }
 
