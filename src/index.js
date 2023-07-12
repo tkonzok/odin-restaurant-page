@@ -1,5 +1,7 @@
 import { initHtml } from './init-html';
 import { home, menu, contact } from './render';
+import './style.css';
+
 
 initHtml();
 

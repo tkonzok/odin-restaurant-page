@@ -1,3 +1,7 @@
+import RestImg from './restaurant.jpg';
+import MenuImg from './menu.jpg';
+import ContactImg from './contact.jpg';
+
 const home = () => {
     const main = document.getElementById('main');
     while (main.hasChildNodes()) {
@@ -7,7 +11,8 @@ const home = () => {
     imageDiv.classList.add('image');
     main.appendChild(imageDiv);
     const image = document.createElement('img');
-    image.setAttribute("src", "../src/restaurant.jpg");
+    // image.setAttribute("src", "../src/restaurant.jpg");
+    image.setAttribute("src", RestImg);
     image.setAttribute("alt", "Restaurant Background Image");
     imageDiv.appendChild(image);
     const cardDiv = document.createElement('div');
@@ -30,7 +35,8 @@ const menu = () => {
     imageDiv.classList.add('image');
     main.appendChild(imageDiv);
     const image = document.createElement('img');
-    image.setAttribute("src", "../src/menu.jpg");
+    // image.setAttribute("src", "../src/menu.jpg");
+    image.setAttribute("src", MenuImg);
     image.setAttribute("alt", "Menu Image");
     imageDiv.appendChild(image);
     const cardDiv = document.createElement('div');
@@ -53,7 +59,8 @@ const contact = () => {
     imageDiv.classList.add('image');
     main.appendChild(imageDiv);
     const image = document.createElement('img');
-    image.setAttribute("src", "../src/contact.jpg");
+    // image.setAttribute("src", "../src/contact.jpg");
+    image.setAttribute("src", ContactImg);
     image.setAttribute("alt", "Contact Image");
     imageDiv.appendChild(image);
     const cardDiv = document.createElement('div');
